@@ -1,0 +1,26 @@
+/* Write your CSS here */
+.notFoundContainer {
+  height: 75vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 40px;
+}
+
+.notFoundImage {
+  width: 80%;
+  max-width: 500px;
+}
+
+.notFoundHeading {
+  font-family: roboto;
+  font-size: 30px;
+}
+
+.notFoundPara {
+  font-family: roboto;
+  font-size: 16px;
+  color: #616e7c;
+}

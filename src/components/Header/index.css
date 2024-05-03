@@ -1,0 +1,129 @@
+/* Write your CSS here */
+
+.headerContainer {
+  padding: 0px;
+}
+.headerContent {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 5px;
+}
+
+.headerImage {
+  height: 40px;
+}
+
+.headerButton {
+  background-color: transparent;
+  border-width: 0px;
+  cursor: pointer;
+}
+
+.hamburgerIcon {
+  font-size: 30px;
+}
+
+.popup-content {
+  height: 100vh;
+  width: 100vw;
+}
+
+.closeButtonContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+  margin-top: 20px;
+  padding-right: 20px;
+  width: 100vw;
+}
+
+.closeButton {
+  margin-right: 25px;
+  margin-top: 10px;
+  background-color: transparent;
+  border-width: 0px;
+  cursor: pointer;
+}
+
+.popupMenu {
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 90vh;
+  list-style: none;
+  padding-left: 0px;
+}
+
+.closeIcon {
+  font-size: 20px;
+  color: #616e7c;
+}
+
+.homeLink2 {
+  text-decoration: none;
+}
+
+.homeButton {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  text-decoration: none;
+  background-color: transparent;
+  border-width: 0px;
+  margin-bottom: 10px;
+  cursor: pointer;
+}
+
+.homeIcon {
+  font-size: 24px;
+  margin-right: 8px;
+}
+
+.homePara {
+  font-family: roboto;
+  font-size: 24px;
+  font-weight: 500;
+  margin: 5px;
+  margin-left: 0px;
+}
+
+.aboutLink {
+  text-decoration: none;
+}
+
+.aboutButton {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  text-decoration: none;
+  background-color: transparent;
+  border-width: 0px;
+  margin-bottom: 10px;
+  cursor: pointer;
+}
+
+.aboutIcon {
+  font-size: 24px;
+  margin-right: 8px;
+}
+
+.aboutPara {
+  font-family: roboto;
+  font-size: 24px;
+  font-weight: 500;
+  margin: 5px;
+  margin-left: 0px;
+}
+
+.hr {
+  border-color: #dcdcdc;
+  border-style: solid;
+}

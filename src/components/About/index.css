@@ -1,0 +1,23 @@
+/* Write your CSS here */
+.aboutContent2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 85vh;
+}
+
+.aboutImage2 {
+  display: none;
+}
+
+@media (min-width: 768px) {
+  .aboutImage {
+    display: none;
+  }
+
+  .aboutImage2 {
+    display: block;
+    height: 100%;
+  }
+}
